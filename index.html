@@ -4,7 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="import" href="../styles/index.css" />
-    <title>Home Page</title>
+    <title>LLM Landing</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Logo</li>
+          <li>About</li>
+          <li>Login</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="uploadSection">
+      <h2>Welcome to LLM CAPEC (Center it)</h2>
+      <p>brief description of llm design</p>
+
+      <form action="" class="uploadForm">
+        <label for="upload">Upload file</label>
+        <input type="file" name="upload" accept=".py" />
+      </form>
+
+      <button>Analyze</button>
+    </section>
+
+    <section class="resultSection">
+      <h2>Analysis Result</h2>
+      <p>Results of analysis ran from LLM</p>
+    </section>
+  </body>
 </html>
